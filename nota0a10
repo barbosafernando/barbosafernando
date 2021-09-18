@@ -1,0 +1,10 @@
+a= float(input('Digite um valor entre 0 e 10: ' ))
+
+while a>10:
+    print ('Digite um numero valido')
+    a = float(input('Digite um valor entre 0 e 10: '))
+while a<0:
+    print ('Digite um numero valido')
+    a = float(input('Digite um valor entre 0 e 10: '))
+if a in range(0,10):
+    print ('O numero informado é: ' , '%1.f' % a)
