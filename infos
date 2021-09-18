@@ -1,0 +1,32 @@
+#NOME
+nome= str(input('Nome: ' ))
+while (len (nome) <=3):
+    print ('Nome deve ter mais do que 3 caracteres. Digite o nome novamente: ')
+    nome = str(input('Nome: '))
+
+#IDADE
+idade= int(input('Idade: ' ))
+idadelimite= 150
+while idade>idadelimite:
+    print('Idade deve ser menor que 150. Digite a idade novamente: ')
+    idade= int(input('Idade: ' ))
+
+#SALARIO
+salario= float(input('Salário: ' ))
+while salario<=0:
+    print('Salario deve ser maior que 0. Digite o salario novamente: ')
+    salario = float(input('Salário: '))
+
+#SEXO
+sexo= str(input('Sexo: ' ))
+while sexo !='f' and sexo !='m':
+    print ( 'Sexo invalido. Digite o Sexo novamente: ')
+    sexo = str(input('Sexo: '))
+
+#ESTADO CIVIL
+estadocivil= str(input('Estado Civil: ' ))
+while (estadocivil !='s' and estadocivil !='c' and estadocivil !='v' and estadocivil !='d'):
+    print ('Estado Civil não é valido. Digite o estado civil novamente: ')
+    estadocivil= str(input('Estado Civil: ' ))
+
+print(nome,idade, 'anos' , 'Sexo', sexo , 'EStado Civil', estadocivil ,'Ganha por mes' , salario, 'Reais')
