@@ -1,0 +1,7 @@
+nome= str(input('Digite seu nome: ' ))
+senha= str(input('Digite uma senha: ' ))
+while senha==nome :
+    print('Sua senha nao pode ser igual ao seu nome.Digite uma nova senha: ')
+    senha = str(input('Digite uma senha '))
+else:
+    print ('Sua senha foi aceita!', senha)
