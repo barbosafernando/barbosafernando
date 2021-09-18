@@ -1,0 +1,6 @@
+pesolimite = 50
+peso = int(input('Qual o peso do peixe? '))
+if peso>pesolimite:
+    excesso = peso - pesolimite
+    multa = excesso * 4.00
+print ('A multa foi de' , multa, 'Reais')
